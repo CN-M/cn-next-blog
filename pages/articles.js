@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import Link from "next/link"
+import mainStyles from '../styles/Main/Main.module.css'
 import { sortByDate } from '../utils'
 
 const articles = ({ posts }) => {
@@ -15,7 +16,7 @@ const articles = ({ posts }) => {
 
     <hr />
     <h2>Articles:</h2>
-    <ul className="list">
+    <ul className={mainStyles.list}>
         {posts.map((post, index) => (
             <li key={index}>
                 <Link href={`/articles/${post.slug}`}>

@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+do.sh
+cn-m.github.io
+
 # dependencies
 /node_modules
 /.pnp

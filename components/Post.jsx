@@ -1,18 +1,14 @@
 import Meta from "./Meta"
-import Nav from "./Nav"
-import Footer from "./Footer"
-import mainStyles from '../styles/Main/Main.module.css'
+import postStyles from '../styles/Post/Post.module.css'
 
 const Main = ({children}) => {
   return (
     <>
       <Meta />
-      <div className={mainStyles.container}>
-      <Nav />
+      <div className={postStyles.container}>
       <section>
           {children}
       </section>
-      <Footer />
       </div>
     </>
   )

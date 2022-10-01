@@ -1,6 +1,6 @@
 --- 
 title: The Plight of the Cowardly
-date: 'March 5, 2021'
+date: '05 Mar, 2021'
 --- 
 A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the In some countries, bananas used for cooking may be called "plantains", distinguishing them from dessert bananas. The fruit is variable  
 <br>
