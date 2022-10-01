@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 300px;
+  width: 50%;
+}
+.nav .items {
+  display: flex;
+  justify-content: space-around;
+  background-color: #DCE1DE;
+  font-size: 20px;
+}
+.nav .items li {
+  list-style: none;
+}
+.nav .items li a {
+  text-decoration: none;
+  color: #216869;
+}
+.nav .items li a:visited {
+  color: #216869;
+}
+.nav .items li a:hover {
+  color: #49A078;
+  transition: all 0.18s ease-in-out;
+}
+.nav hr {
+  margin-top: 20px;
+  border: 0.5px solid #216869;
+}
+
+@media (max-width: 600px) {
+  .nav .items li {
+    padding: 0px 10px;
+  }
+}/*# sourceMappingURL=Nav.module.css.map */

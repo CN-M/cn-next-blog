@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+    hr {
+        margin-bottom: 10px;
+        width: 30%;
+        border: 0.5px solid #216869;
+    }
+    
+    .copyright {
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
