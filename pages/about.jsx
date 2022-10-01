@@ -4,30 +4,25 @@ import Link from 'next/link'
 import matter from 'gray-matter'
 import { sortByDate } from '../utils'
 
-export default function Home({ posts }) {
+const about = ({ posts }) => {
   return (
     <>
-      <h1>Hey, Welcome to the blog</h1>
-      <br />
+        <h1>Hey</h1>
+        <br />
 
-      <h2>My name is C.N.</h2>
-      <h2>I&apos;m a software engineer and writer.</h2>
-      <br />
+        <h2>My name is C.N.</h2>
+        <h2>I write sometimes.</h2>
+        <br />
+        <h2>Yep.</h2>
+        <h2>That&apos;s about it.</h2>
 
-      <h2>I&apos;m also a bit of an idiot.</h2>
-      <h2>I have this tendency of overthinking things and</h2>
-      <h2>making them needlessly complicated.</h2>
-      <br />
-
-      <h2>Writing helps me think things through in a far less convoluted way.</h2>
-
-      <hr />
-      <h2>Read my latest work: 
+        <hr />
+        <h2>Read my latest work: 
         <Link key={0} href={`/articles/${posts[0].slug}`}>
           <a> {posts[0].frontmatter.title}</a>
         </Link>
       </h2>
-  </>
+    </>
   )
 }
 
@@ -53,3 +48,5 @@ export const getStaticProps = async () => {
     }
   } 
 }
+
+export default about

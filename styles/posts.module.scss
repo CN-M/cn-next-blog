@@ -1,0 +1,53 @@
+@import "./globals.scss";
+
+.container {
+    min-height: 100vh;
+    // max-height: 90%;
+
+    hr {
+        margin-top: 20px;
+        // border: 0.5px solid #216869;
+        border: 2px solid red;
+    }
+
+    section {
+        padding: 5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+
+        .date {
+            align-self: start;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        nav {
+            .items {
+
+                li {
+                    padding: 0px 10px;
+                }
+            }
+        }
+
+        section {
+            text-align: center;
+            padding: 10px 25px;
+            
+            h1 {
+                font-size: 35px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 18px;
+                text-align: left;
+            }
+        }
+    }
+} 
