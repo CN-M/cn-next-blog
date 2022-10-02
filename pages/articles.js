@@ -2,12 +2,14 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import Link from "next/link"
+import Meta from '../components/Meta'
 import mainStyles from '../styles/Main/Main.module.css'
 import { sortByDate } from '../utils'
 
 const articles = ({ posts }) => {
   return (
     <>
+    <Meta title='Articles | C.N.M.'/>
     <h2>Latest Article:
         <Link key={0} href={`/articles/${posts[0].slug}`}>
         <a> {posts[0].frontmatter.title}</a>

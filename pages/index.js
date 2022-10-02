@@ -3,10 +3,12 @@ import path from 'path'
 import Link from 'next/link'
 import matter from 'gray-matter'
 import { sortByDate } from '../utils'
+import Meta from '../components/Meta'
 
 export default function Home({ posts }) {
   return (
     <>
+      <Meta title='Home | C.N.M.'/>
       <h1>Hey, Welcome to the blog</h1>
       <br />
 

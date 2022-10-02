@@ -1,8 +1,8 @@
 import fs from 'fs'
 import path from 'path'
-import Link from 'next/link'
 import matter from 'gray-matter'
 import { marked } from 'marked'
+import Meta from '../../components/Meta'
 import Post from '../../components/Post'
 import postStyles from '../../styles/Post/Post.module.css'
 
@@ -10,6 +10,7 @@ import postStyles from '../../styles/Post/Post.module.css'
 const singlePost = ({ frontmatter: {title, date}, slug, content }) => {
   return (
     <Post>
+      <Meta title={title + ' | C.N.M.'}/>
       <h1>{title}</h1>
       <hr />
       <h3 className={postStyles.date}>{date}</h3>
@@ -46,6 +47,5 @@ export const getStaticProps = async ({params: { slug }}) => {
       }
   }
 }
-
 
 export default singlePost
