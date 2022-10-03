@@ -1,7 +1,7 @@
 import Meta from "./Meta"
 import Nav from "./Nav"
 import Footer from "./Footer"
-import mainStyles from '../styles/Main/Main.module.css'
+import mainStyles from '../styles/Main.module.scss'
 
 const Main = ({children}) => {
   return (

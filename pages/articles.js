@@ -3,7 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import Link from "next/link"
 import Meta from '../components/Meta'
-import mainStyles from '../styles/Main/Main.module.css'
+import mainStyles from '../styles/Main.module.scss'
 import { sortByDate } from '../utils'
 
 const articles = ({ posts }) => {
