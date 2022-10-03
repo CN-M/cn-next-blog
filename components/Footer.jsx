@@ -1,11 +1,8 @@
-import footerStyles from '../styles/Footer/Footer.module.css'
-
 const Footer = () => {
   return (
-    <footer className={footerStyles.footer}>
+    <footer>
         <hr />
-        {/* <div className="copyright"> */}
-        <div className={footerStyles.copyright}>
+        <div className="copyright">
             <p>&copy; 2022 C.N.M.</p>
         </div>
     </footer>

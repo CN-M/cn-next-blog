@@ -3,11 +3,14 @@ import path from 'path'
 import matter from 'gray-matter'
 import Link from "next/link"
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Meta from '../components/Meta'
 import mainStyles from '../styles/Main.module.scss'
 =======
 import mainStyles from '../styles/Main/Main.module.css'
 >>>>>>> parent of 3f6a501 (Changed meta titles)
+=======
+>>>>>>> parent of 609f0cb (Nearly done)
 import { sortByDate } from '../utils'
 
 const articles = ({ posts }) => {
@@ -21,7 +24,7 @@ const articles = ({ posts }) => {
 
     <hr />
     <h2>Articles:</h2>
-    <ul className={mainStyles.list}>
+    <ul className="list">
         {posts.map((post, index) => (
             <li key={index}>
                 <Link href={`/articles/${post.slug}`}>
