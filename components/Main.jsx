@@ -1,18 +1,13 @@
 import Meta from "./Meta"
 import Nav from "./Nav"
 import Footer from "./Footer"
-<<<<<<< HEAD
-// import mainStyles from '../styles/main.module.css'
-
-=======
-import mainStyles from '../styles/Main/Main.module.css'
->>>>>>> parent of 0b3efac (used sass support)
+import mainStyles from '../styles/Main.module.scss'
 
 const Main = ({children}) => {
   return (
     <>
       <Meta />
-      <div className="container">
+      <div className={mainStyles.container}>
       <Nav />
       <section>
           {children}

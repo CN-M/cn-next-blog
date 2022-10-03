@@ -4,7 +4,7 @@ import Link from 'next/link'
 import matter from 'gray-matter'
 import { marked } from 'marked'
 import Post from '../../components/Post'
-import postStyles from '../../styles/Post/Post.module.css'
+import postStyles from '../../styles/Post.module.scss'
 
 
 const singlePost = ({ frontmatter: {title, date}, slug, content }) => {
