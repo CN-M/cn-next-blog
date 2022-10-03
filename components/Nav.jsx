@@ -1,4 +1,8 @@
 import Link from "next/link";
+<<<<<<< HEAD
+=======
+import navStyles from '../styles/Nav/Nav.module.css'
+>>>>>>> parent of 0b3efac (used sass support)
 
 const Nav = () => {
   return (

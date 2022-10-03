@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+import footerStyles from '../styles/Footer/Footer.module.css'
+
+>>>>>>> parent of 0b3efac (used sass support)
 const Footer = () => {
   return (
     <footer>

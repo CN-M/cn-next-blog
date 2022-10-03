@@ -5,12 +5,16 @@ import Link from "next/link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 import Meta from '../components/Meta'
+<<<<<<< HEAD
 import mainStyles from '../styles/Main.module.scss'
 =======
 import mainStyles from '../styles/Main/Main.module.css'
 >>>>>>> parent of 3f6a501 (Changed meta titles)
 =======
 >>>>>>> parent of 609f0cb (Nearly done)
+=======
+import mainStyles from '../styles/Main/Main.module.css'
+>>>>>>> parent of 0b3efac (used sass support)
 import { sortByDate } from '../utils'
 
 const articles = ({ posts }) => {
