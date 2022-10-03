@@ -9,6 +9,7 @@ import { sortByDate } from '../utils'
 const articles = ({ posts }) => {
   return (
     <>
+      <Meta title='Articles | C.N.M' />
     <h2>Latest Article:
         <Link key={0} href={`/articles/${posts[0].slug}`}>
         <a> {posts[0].frontmatter.title}</a>
@@ -17,7 +18,7 @@ const articles = ({ posts }) => {
 
     <hr />
     <h2>Articles:</h2>
-    <ul className="list">
+    <ul className={mainStyles.list}>
         {posts.map((post, index) => (
             <li key={index}>
                 <Link href={`/articles/${post.slug}`}>

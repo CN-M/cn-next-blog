@@ -1,12 +1,14 @@
 import fs from 'fs'
 import path from 'path'
 import Link from 'next/link'
+import Meta from '../components/Meta'
 import matter from 'gray-matter'
 import { sortByDate } from '../utils'
 
 const about = ({ posts }) => {
   return (
     <>
+        <Meta title='About | C.N.M' />
         <h1>Hey</h1>
         <br />
 
