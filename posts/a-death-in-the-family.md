@@ -24,12 +24,12 @@ At your funeral, there will be laughter, tears, dancing, joy, and sadness. There
 <br>
 There will be many people feeling many things, but you will be lying in your coffin, empty. Yes. Empty. Not the coffin. The coffin has you in it. You’re the one who will be empty. Because you will have lived your life to the fullest. You will have died empty because you will have given everything to everyone you ever met. Your wife or husband, sons and daughters, brothers and sisters, mothers and fathers, friends and family, and anyone else lucky enough to meet you on your journey through life will speak highly of you, your bravery, your resilience, your wisdom, and your kindness.  
 <br>
-Now. Obviously, I can’t see into the future, so this whole picture I painted is entirely fictional. But it doesn’t have to be. You are alive *RIGHT NOW*, but there’s no telling for how long. So, live! Live, now! Follow your dreams, kiss a boy, start a business, ask a girl out, learn to code, learn to write, learn to play the guitar, or learn to do a backflip or something. I don’t care what you do, just do it *NOW*.  
+Now. Obviously, I can’t see into the future, so this whole picture I painted is entirely fictional. But it doesn’t have to be. You are alive **RIGHT NOW**, but there’s no telling for how long. So, live! Live, now! Follow your dreams, kiss a boy, start a business, ask a girl out, learn to code, learn to write, learn to play the guitar, or learn to do a backflip or something. I don’t care what you do, just do it **NOW**.  
 <br>
 You are mortal. Painfully so. You were born fragile, and over time have gotten considerably stronger, but you still remain quite fragile. So love with everything inside of you. Give with everything inside of you. Live with everything inside of you.  
 <br>
-You, my friend, are a creature with boundless potential and power. You have the power to save the world or end it. However, one day you will die. So live, today. Love, today. Try something new, today.
+You, my friend, are a creature with boundless potential and power. You have the power to save the world or end it. However, one day you will die. So live, today. Love, today. Try something new, today.  
 <br>
 Vienna waits for you.  
 <br>
---- C.N.M.
+— C.N.M.
