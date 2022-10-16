@@ -23,13 +23,16 @@ Professor Vogel then turns to the strange man sitting across from his desk. Quit
 <br>
 “Oh! No worries,” Ogden said, his countenance remaining stoic.  
 <br>
-Professor Vogel takes a glance at Jimmy. He’s sitting on a small chair beside the desk, working the camera and making sure he’s recording. Jimmy gives the professor a nod.
+Professor Vogel takes a glance at Jimmy. He’s sitting on a small chair beside the desk, working the camera and making sure he’s recording. Jimmy gives the professor a nod.  
+<br>
 “Okay, Mr. Hanes. Can you start from the beginning? Tell me how you died.”  
 <br>
-“Sure! Well, I… uhm… I tried to kill myself. I took the revolver out of the safe and looked for the bullets. The wife and I, we keep them in this old shoe box in the back of the closet for some reason. Maybe ‘cause it’s the last place we’d expect the kids to look. Hiding things from them has always been hard, though. They always find the Christmas gifts we hide back there, but always seem to avoid the shoe box.”
+“Sure! Well, I… uhm… I tried to kill myself. I took the revolver out of the safe and looked for the bullets. The wife and I, we keep them in this old shoe box in the back of the closet for some reason. Maybe ‘cause it’s the last place we’d expect the kids to look. Hiding things from them has always been hard, though. They always find the Christmas gifts we hide this time of year, but always seem to avoid the shoe box.”  
+<br>
 Mr. Hanes had this look of melancholy on his face. The first sign of emotion he’d shown throughout this unusual investigation.  
 <br>
-“I can’t tell you why I wanted to do it. All I know is that I didn’t want to live anymore. So, I put the gun in my mouth and pulled the trigger. It hurt, but only for about a second. Really, I didn’t even feel it. “
+“I can’t tell you why I wanted to do it. All I know is that I didn’t want to live anymore. So, I put the gun in my mouth and pulled the trigger. It hurt, but only for about a second. I didn’t even really feel it.“  
+<br>
 “Everything went quiet for a bit. It felt good. It was a strange kind of peace, you know? But it didn’t last long, as you can so clearly see.”  
 <br>
 “So, tell me, Professor,” Mr. Hanes said, leaning forward.  
