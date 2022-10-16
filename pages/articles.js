@@ -6,27 +6,55 @@ import Meta from '../components/Meta'
 import mainStyles from '../styles/Main.module.scss'
 import { sortByDate } from '../utils'
 
-const articles = ({ posts }) => {
+const articles = ({ posts, articles, short_stories }) => {
   return (
     <>
       <Meta title='Articles | C.N.M' />
-    <h2>Latest Article:
-        <Link key={0} href={`/articles/${posts[0].slug}`}>
+    <h2>Latest Piece:
+      {
+      posts[0].frontmatter.category === 'Article' ? 
+      (
+      <Link key={0} href={`/articles/${posts[0].slug}`}>
+          <a> {posts[0].frontmatter.title}</a>
+      </Link>
+      )
+      :
+      (
+      <Link key={0} href={`/short-stories/${posts[0].slug}`}>
         <a> {posts[0].frontmatter.title}</a>
-        </Link>
+      </Link>
+      )
+      }
     </h2>
 
     <hr />
-    <h2>Articles:</h2>
-    <ul className={mainStyles.list}>
-        {posts.map((post, index) => (
-            <li key={index}>
-                <Link href={`/articles/${post.slug}`}>
-                    <a>{post.frontmatter.title}</a>
-                </Link>
-            </li>
-        ))}
-    </ul>
+    <div className={mainStyles.pieces}>
+      <div className={mainStyles.articles}>
+        <h2>Articles:</h2>
+        <ul className={mainStyles.list}>
+            {articles.map((article, index) => (
+                <li key={index}>
+                    <Link href={`/articles/${article.slug}`}>
+                        <a>{article.frontmatter.title}</a>
+                    </Link>
+                </li>
+            ))}
+        </ul>
+      </div>
+      <br/>
+      <div className={mainStyles.short_stories}>
+        <h2>Short Stories:</h2>
+        <ul className={mainStyles.list}>
+            {short_stories.map((story, index) => (
+                <li key={index}>
+                    <Link href={`/short-stories/${story.slug}`}>
+                        <a>{story.frontmatter.title}</a>
+                    </Link>
+                </li>
+            ))}
+        </ul>
+      </div>
+    </div>
     </>
   )
 }
@@ -45,11 +73,24 @@ export const getStaticProps = async () => {
         slug,
         frontmatter
       }
-    })    
+    })
+
+    const articles = []
+    const short_stories = []
+  
+    posts.forEach(post => {
+      if (post.frontmatter.category === 'Short Story') {
+        short_stories.push(post)
+      } else if (post.frontmatter.category === 'Article') {
+        articles.push(post)
+      }
+    })
   
     return {
       props: {
         posts: posts.sort(sortByDate),
+        articles,
+        short_stories
       }
     } 
   }

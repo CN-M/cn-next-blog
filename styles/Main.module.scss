@@ -61,6 +61,11 @@
     }
 }
 
+.pieces {
+    display: flex;
+    gap: 20px;
+}
+
 @media (max-width: 600px) {
     .container {
         .nav {
@@ -88,6 +93,10 @@
                 font-size: 18px;
                 text-align: center;
             }
+        }
+
+        .pieces {
+            display: block;
         }
     }
 } 

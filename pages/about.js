@@ -20,10 +20,21 @@ const about = ({ posts }) => {
 
         <hr />
         <h2>Read my latest work: 
+        {
+        posts[0].frontmatter.category === 'Article' ? 
+        (
         <Link key={0} href={`/articles/${posts[0].slug}`}>
+            <a> {posts[0].frontmatter.title}</a>
+        </Link>
+        )
+        :
+        (
+        <Link key={0} href={`/short-stories/${posts[0].slug}`}>
           <a> {posts[0].frontmatter.title}</a>
         </Link>
-      </h2>
+        )
+        }
+        </h2>
     </>
   )
 }

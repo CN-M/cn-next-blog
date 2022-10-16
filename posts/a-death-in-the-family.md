@@ -1,6 +1,7 @@
 --- 
 title: A Death in the Family
 date: '10 Oct, 2022'
+category: 'Article'
 --- 
 Hey. Hope you’re good. I just wanted to stop by and remind you that one day you will die.  
 <br>
