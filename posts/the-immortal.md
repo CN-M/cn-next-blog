@@ -1,5 +1,5 @@
 --- 
-title: The Immortal
+title: 'The Immortal'
 date: ' 17 Oct, 2022'
 category: 'Short Story'
 --- 
@@ -36,8 +36,9 @@ Mr. Hanes had this look of melancholy on his face. The first sign of emotion he�
 “Everything went quiet for a bit. It felt good. It was a strange kind of peace, you know? But it didn’t last long, as you can so clearly see.”  
 <br>
 “So, tell me, Professor,” Mr. Hanes said, leaning forward.  
-<br>
-“What the hell did you people do to me and **WHY CAN’T I DIE**?”  
+<br>  
+
+“What the hell did you people do to me and WHY CAN’T I DIE?”  
 <br>
 FIN.  
 <br>
