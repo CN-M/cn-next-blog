@@ -8,6 +8,9 @@ import Post from '../../components/Post'
 import postStyles from '../../styles/Post.module.scss'
 
 const singlePost = ({ frontmatter: {title, date}, slug, content }) => {
+  // console.log(content.innerText)
+  // marked.parse(content)
+
   return (
     <Post>
       <Meta title={title + ' | C.N.M.'} />
