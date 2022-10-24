@@ -1,5 +1,5 @@
 --- 
-title: 'Allowing others to change'
+title: 'Allowing Others to Change'
 date: '24 Oct, 2022'
 category: 'Article'
 --- 
