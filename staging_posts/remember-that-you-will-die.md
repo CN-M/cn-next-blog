@@ -1,6 +1,6 @@
 --- 
-title: 'Remember You Will Die'
-date: '24 Oct, 2022'
+title: 'Remember That You Will Die'
+date: '31 Oct, 2022'
 category: 'Article'
 --- 
 **‘Memento Mori’** is a Latin phrase common in Stoic literature that translates, quite gruesomely, to **‘Remember that you will die.’**  

@@ -19,6 +19,10 @@ const about = ({ posts }) => {
         <h2>That&apos;s about it.</h2>
 
         <hr />
+        <h2>New pieces every Monday.</h2>
+        <h2>Except the last Monday of the Month.</h2>
+        <h2>(That&apos;s laundry day).</h2>
+        <hr />
         <h2>Read my latest work: 
         {
         posts[0].frontmatter.category === 'Article' ? 
