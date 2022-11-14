@@ -24,7 +24,8 @@
         }
 
         p {
-            font-size: 20px;
+            font-size: 22px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
 
         hr {
@@ -64,15 +65,10 @@
 .container {
     hr {
         margin-top: 20px;
-        // border: 0.5px solid #216869;
         border: 2px solid red;
     }
 
     section {
-        // padding: 5em;
-        // padding-top: 1em;
-        // padding-bottom: 1em;
-
         .date {
             align-self: start;
         }
@@ -81,15 +77,6 @@
 
 @media (max-width: 600px) {
     .container {
-        // nav {
-        //     .items {
-
-        //         li {
-        //             padding: 0px 10px;
-        //         }
-        //     }
-        // }
-
         section {
             text-align: center;
             padding: 0px 5px;
