@@ -47,11 +47,9 @@ Take a breath. You have time. Infinite time? No. But enough time. Enough time to
 **When we spend time beating ourselves up for needing time, we only delay our own healing.** It’s not good for you, and it’s not constructive.  
 <br>  
 
-**”It is not that we have a short time to live, but that we waste a lot of it. Life is long enough, and a sufficiently generous amount has been given to us for the highest achievements if it were all well invested. So it is: we are not given a short life but we make it short, and we are not ill-supplied but wasteful of it… Life is long if you know how to use it.“**  
+_”It is not that we have a short time to live, but that we waste a lot of it. Life is long enough, and a sufficiently generous amount has been given to us for the highest achievements if it were all well invested. So it is: we are not given a short life but we make it short, and we are not ill-supplied but wasteful of it… Life is long if you know how to use it.“_  
 
-<br>  
-
-*― Seneca, A Stoic playwright and political advisor*  
+― Seneca, A Stoic playwright and political advisor  
 <br>  
 
 ## YOU ARE CAPABLE  
@@ -63,11 +61,9 @@ My personal interpretation of self-improvement, and thus Stoicism, is that despi
 To be human is to be mortal and to be mortal is to be fragile, but despite human fragility we are still capable of things unimaginable.  
 <br>  
 
-**“Do not think that what is hard for you to master is humanly impossible; and if it is humanly possible, consider it to be within your reach.”**  
+_“Do not think that what is hard for you to master is humanly impossible; and if it is humanly possible, consider it to be within your reach.”_  
 
-<br>  
-
-*― Marcus Aurelius, A Stoic Roman Emperor*  
+― Marcus Aurelius, A Stoic Roman Emperor  
 
 <br>  
 
@@ -85,11 +81,11 @@ Remember to live, my dear readers. Remember to seize the days, the hours, the mo
 And finally, a quote often wrongly attributed to Marcus Aurelius:  
 <br>  
 
-**“When you arise in the morning, think of what a precious privilege it is to be alive-to breathe, to think, to enjoy, to love.”**  
+_“When you arise in the morning, think of what a precious privilege it is to be alive-to breathe, to think, to enjoy, to love.”_  
 
 <br>  
 
-My dear readers, Memento Vivere  
+My dear readers, Memento Vivere.  
 
 <br>  
 
@@ -97,12 +93,10 @@ Vienna waits for you.
 <br>
 — C.N.M.  
 
-
 <hr />
 
-**“I exist. In thousands of agonies — I exist. I’m tormented on the rack — but I exist! Though I sit alone in a pillar — I exist! I see the sun, and if I don’t see the sun, I know it’s there. And there’s a whole life in that, in knowing that the sun is there.”**  
+_“I exist. In thousands of agonies — I exist. I’m tormented on the rack — but I exist! Though I sit alone in a pillar — I exist! I see the sun, and if I don’t see the sun, I know it’s there. And there’s a whole life in that, in knowing that the sun is there.”_  
 
-<br>  
 
 *― Fyodor Dostoyevsky, The Brothers Karamazov*
 
