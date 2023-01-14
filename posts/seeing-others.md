@@ -1,6 +1,6 @@
 --- 
 title: 'Seeing Others'
-date: '23 Nov, 2022'
+date: '21 Nov, 2022'
 category: 'Article'
 --- 
 Sonder:

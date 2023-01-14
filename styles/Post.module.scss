@@ -1,3 +1,5 @@
+$wid: 300px;
+
 .container {
     min-height: 100vh;
     display: flex;
@@ -25,7 +27,8 @@
 
         p {
             font-size: 22px;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            // font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            line-height: 30px;
         }
 
         hr {
@@ -54,6 +57,11 @@
                 transition: all 0.18s ease-in-out;
 
             }
+        }
+
+        iframe {
+            width: 560px;
+            height: 315px;
         }
 
         .list {
@@ -90,8 +98,14 @@
             }
 
             p {
-                font-size: 18px;
+                font-size: 20px;
                 text-align: left;
+                line-height: 25px;
+            }
+
+            iframe {
+                width: $wid;
+                height: calc($wid*0.5625);   
             }
         }
     }
