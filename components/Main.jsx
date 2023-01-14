@@ -8,10 +8,10 @@ const Main = ({children}) => {
     <>
       <Meta />
       <div className={mainStyles.container}>
-      <Nav />
-      <section>
-          {children}
-      </section>
+        <Nav />
+        <section>
+            {children}
+        </section>
       <Footer />
       </div>
     </>
