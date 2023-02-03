@@ -1,15 +1,28 @@
 import fs from 'fs'
 import path from 'path'
-import Link from 'next/link'
 import Meta from '../../components/Meta'
 import matter from 'gray-matter'
 import { marked } from 'marked'
 import Post from '../../components/Post'
 import postStyles from '../../styles/Post.module.scss'
+import { useEffect } from 'react'
+
+import mixpanel from 'mixpanel-browser'
+
+const { NEXT_PUBLIC_TOKEN } = process.env
 
 const singlePost = ({ frontmatter: {title, date}, slug, content }) => {
-  // console.log(content.innerText)
-  // marked.parse(content)
+  useEffect(() => {
+    const check = (title) => {
+      mixpanel.init(NEXT_PUBLIC_TOKEN, { debug: true, ignore_dnt: true })
+      mixpanel.track(`Article '${title}' loaded`, {
+        "source": `${title} page`,
+        "viewed article": true
+      })
+    }
+
+    check(title)
+  })
 
   return (
     <Post>

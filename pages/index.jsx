@@ -13,11 +13,7 @@ import { useEffect } from 'react'
 export default function Home({ posts }) {
   useEffect(() => {
     const check = () => {
-      mixpanel.init(NEXT_PUBLIC_TOKEN, { ignore_dnt: true })
-      
-      console.log(NEXT_PUBLIC_TOKEN)
-      console.log('Its ayt')
-      
+      mixpanel.init(NEXT_PUBLIC_TOKEN, { debug: true, ignore_dnt: true })
       mixpanel.track('page load', {
         "source": "Front page",
         "viewed site": true
@@ -42,24 +38,19 @@ export default function Home({ posts }) {
       <h2>making them needlessly complicated.</h2>
       <br />
 
-      {/* <h2>Writing helps me think things through in a far less convoluted way.</h2> */}
       <h2>Writing helps me think things through in far less convoluted ways.</h2>
 
       <hr />
       <h2>Read my latest work: 
       {
-      posts[0].frontmatter.category === 'Article' ? 
-      (
-      <Link key={0} href={`/articles/${posts[0].slug}`}>
+        posts[0].frontmatter.category === 'Article' ? 
+        (<Link key={0} href={`/articles/${posts[0].slug}`}>
+            <a> {posts[0].frontmatter.title}</a>
+        </Link>)
+        :
+        (<Link key={0} href={`/short-stories/${posts[0].slug}`}>
           <a> {posts[0].frontmatter.title}</a>
-      </Link>
-      )
-      :
-      (
-      <Link key={0} href={`/short-stories/${posts[0].slug}`}>
-        <a> {posts[0].frontmatter.title}</a>
-      </Link>
-      )
+        </Link>)
       }
     </h2>
   </>
