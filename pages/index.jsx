@@ -3,9 +3,23 @@ import path from 'path'
 import Link from 'next/link'
 import matter from 'gray-matter'
 import Meta from '../components/Meta'
+import mixpanel from 'mixpanel-browser'
+
+const { NEXT_PUBLIC_TOKEN } = process.env
+
 import { sortByDate } from '../utils'
+import { useEffect } from 'react'
 
 export default function Home({ posts }) {
+  useEffect(() => {
+    mixpanel.init(NEXT_PUBLIC_TOKEN, { debug: true, ignore_dnt: true })
+
+    mixpanel.track('page load', {
+      "source": "Front page",
+      "viewed site": true
+    })
+  }, [])
+
   return (
     <>
       <Meta title='Home | C.N.M' />
@@ -45,6 +59,7 @@ export default function Home({ posts }) {
 }
 
 export const getStaticProps = async () => {
+  
   // Get files from post dir
   const files = fs.readdirSync(path.join('posts'))
 
