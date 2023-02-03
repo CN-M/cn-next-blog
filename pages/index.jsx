@@ -13,6 +13,9 @@ import { useEffect } from 'react'
 export default function Home({ posts }) {
   useEffect(() => {
     mixpanel.init(NEXT_PUBLIC_TOKEN, { ignore_dnt: true })
+    
+    console.log(NEXT_PUBLIC_TOKEN)
+    console.log('Its ayt')
 
     mixpanel.track('page load', {
       "source": "Front page",
